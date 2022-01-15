@@ -1,0 +1,10 @@
+import numpy as np 
+import tensorflow as tf
+from tensorflowimport keras 
+from tensorflow.keras import models , layers , datasets 
+import matplot.pyplot as plt 
+import pandas as pd 
+
+data = pd.read ("dataset.csv") 
+print (data) 
+
