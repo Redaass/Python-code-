@@ -6,5 +6,6 @@ import matplot.pyplot as plt
 import pandas as pd 
 
 data = pd.read ("dataset.csv") 
-print (data) 
+data.head () 
+
 
